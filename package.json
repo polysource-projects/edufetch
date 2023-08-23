@@ -1,0 +1,20 @@
+{
+	"name": "edufetch",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc",
+		"start": "node ./dist"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"xml2js": "^0.6.2"
+	},
+	"devDependencies": {
+		"@types/xml2js": "^0.4.11"
+	}
+}
